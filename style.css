@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(45deg, rgba(14, 13, 13, 0.85),rgba(42, 32, 32, 0.85)), url(images/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 8%;
+    text-align: center;
+    color: #fff;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    cursor: pointer;
+}
+.logo:hover{
+    color: green;
+    cursor: pointer;
+}
+.btn{
+    background: linear-gradient(#0ae802,#515151);
+    color: #fff;
+    font-size: 16px;
+    margin-top: 5PX;
+    padding: 16px 30px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.content{
+    margin: 15% auto 0;
+}
+.content h1{
+    font-size: 65px;
+    font-weight: 400;
+}
+.content h1 span{
+    font-weight: 700;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+    height: 65px;
+    background: #fff;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+form input{
+    flex: 1;
+    padding: 20px 30px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+form.btn{
+    padding: 0;
+    width: 150px;
+    height: 65px;
+    border-radius: 31px;
+}
+form input::placeholder{
+    font-size: 16px;
+}
+.links{
+    margin-top: 14%;
+}
+.links a{
+    margin: 10px;
+}
+.links a img{
+    width: 30px;
+}
+
+@media(max-width:700px){
+    .hero{
+        width: 100;
+        min-height: 100vh;
+        background-image: linear-gradient(45deg, rgba(14, 13, 13, 0.85),rgba(42, 32, 32, 0.85)), url(images/bg1.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 10px 8%;
+        text-align: center;
+        color: #fff;
+    }
+    .logo{
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .btn{
+        background: linear-gradient(#0ae802,#515151);
+        color: #fff;
+        font-size: 16px;
+        margin-top: 5PX;
+        padding: 8px 16px;
+    }
+    .content{
+        margin: 40% auto 0;
+        display: block;
+        justify-content: center;
+    }
+    .content h1{
+        font-size: 40px;
+        font-weight:350;
+    } 
+    form{
+        width: 92%;
+        max-width: 600px;
+        height: 50px;
+        margin-left: 10px;
+        
+    }
+    
+}
